@@ -1,0 +1,259 @@
+body {
+    font-family: Arial;
+    color: white;
+}
+
+.split {
+    height: 60%;
+    width: 50%;
+    position: fixed;/* можете установить координаты слева/справа и сверху/снизу. фиксированный элемент не перемещается со страницей, */
+    top: 0;
+    overflow-x: hidden;/*Контент обрезается без прокрутки */
+    padding-top: 20px; /*Устанавливает значение поля от верхнего края содержимого элемента. */
+}
+
+.split2 {
+    height: 20%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.split3 {
+    height: 100%;
+    width: 66%;
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left2 {
+    left: 0;
+    height: 40%;
+    background-image: url('history-pink.jpg');
+    background-size: 500px, auto, contain;
+}
+
+
+.left {
+    left: 0;
+    height: 80%;
+    background-image: url('pink.jpg');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.left3 {
+    left: 0;
+    height: 100%;
+    background-image: url('music-pink.jpg');
+    background-size: 500px;
+    
+}
+
+
+.right {
+    right: 0;
+    height:100%;
+    background-color: black;
+    background-size: 800px 800px;
+    
+}
+
+.right3 {
+    right: 0;
+    height:100%;
+    background-color: black;
+    background-size: 800px 800px;
+    
+}
+
+.angle{
+    left:0%;
+    height:20%;
+    top:82.7%;
+    background-image: url('music1.jpg');
+    background-size:contain;
+    cursor: pointer;
+}
+
+.angle2{
+    left:0%;
+    height:60%;
+    top:42.7%;
+    background-color:black;
+    background-size:contain;
+    
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+.name1{
+    position: absolute;
+    top: -135%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:120px;
+    color:pink;
+    letter-spacing: 20px;
+
+}
+
+.name2{
+    position: absolute;
+    top: 150%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:120px;
+    color:pink;
+    letter-spacing: 20px;
+
+}
+
+.name3{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:55px;
+    color:pink;
+    letter-spacing: 20px;
+
+}
+
+
+
+
+
+
+.div_hover {
+    opacity: 0.88;
+  }
+  
+  .div_hover:hover {
+    opacity: 1;
+  }
+
+  p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:27px;
+  }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:pink;
+    text-decoration:none;
+}
+
+
+.cont{
+    text-align:center;
+    margin-top: 0;
+    font-family: monospace;
+    font-size:30px;
+}
+
+table{
+    font-size:20px;
+    text-align: center;
+    border-spacing: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+td{
+    width:20%;
+    text-align:center;
+}
+
+table td + td { border-left:3px solid red; }
+
+
+
+.logo{
+    
+    width:320px;
+    height:200px;
+   
+}
+
+.logo2{
+    position: absolute;
+    top:12%;
+    left:10%;
+    width:800px;
+    height:400px;
+   
+}
+
+.scale {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+    }
+
+
+
+    .rectangle{
+
+        position: absolute;
+
+        top:70%;
+
+        left:15%;
+
+        width: 70%;
+        
+        height: 25%;
+        
+        border:5px solid;
+
+        border-color: pink;
+        
+        margin:auto;
+        
+        background: #0b0b0b;}
+        
+        .text_center_middle{
+
+        font-size:18px;
+
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        color: rgb(253, 253, 253);
+        
+        text-align: center;
+        
+        line-height: 48px;
+        
+        }
